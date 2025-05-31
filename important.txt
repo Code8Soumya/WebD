@@ -1,0 +1,17 @@
+https://entitycode.com/#featured-content
+https://html.spec.whatwg.org/multipage/named-characters.html
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+
+npm init
+npm install nodemon --save-dev
+"scripts": {
+    "start": "nodemon learning/app.js"
+}
+npm install --save express
+npm install --save body-parser
+
+
+
+npm install
+npm start

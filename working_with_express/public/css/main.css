@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header & Nav */
+header {
+    background: #fff;
+    border-bottom: 4px solid #007acc;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+    padding: 15px 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d21699;
+}
+
+/* Form container */
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #007acc;
+}
+
+/* Inputs */
+form input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus {
+    border-color: #007acc;
+    outline: none;
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #005fa3;
+}
